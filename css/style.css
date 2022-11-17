@@ -1,0 +1,241 @@
+body,html{
+  margin: 0;
+  padding: 0;
+}
+.nav_links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content:space-between;
+  list-style: none;
+}
+/*-------navbar-------*/
+
+header{
+  width: 100%;
+  height: 85px;
+  background-color: grey;
+}
+/*-------header styling-------*/
+
+h1{
+  float: left;
+  padding: 5px;
+  margin-left: 2%;
+  margin-top: 10px;
+  font-family: 'Alfa slab one', cursive;
+  color:burlywood;
+}
+
+span{
+  color: black; 
+}
+/*-------logo styling-------*/
+
+ul{
+  width: auto;
+  float:none;
+  margin-top: -10px;
+  margin-left: 50px;
+}
+
+li, a {
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: burlywood;
+  text-decoration: none;
+}
+
+.nav_links {
+  display: flex;
+  flex-direction: row;
+  padding: 14px 16px;
+  overflow: hidden;
+  justify-content:space-between;
+}
+/*-------navbar styling lists-------*/
+
+.jewelryimg{
+  border-radius:30px;
+  top: 100px;
+  left: -30px;
+}
+/*-------image styling-------*/
+
+h3{
+  display: flex;
+  float:right;
+  padding: 350px;
+  padding-top: 95px;
+  font-size: xx-large;
+  font-family:monospace;
+}
+h4{
+  display: flex;
+  float: right;
+  padding: 40%;
+  margin-top: -62%;
+  font-size: x-large;
+  font-family:monospace;
+  margin-right: -40%; 
+}
+/*-------about.html text decoration-------*/
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 32%;
+  padding: 1%;
+  margin-bottom: 2%;
+  background-color: rgb(146, 111, 92);
+  border-radius: 10%;
+  height: fit-content;
+  width: fit-content; 
+  margin: 20px;
+}
+.item > img {
+  max-width: 290px;
+  max-height:290px ;
+  border-radius: 7%;
+  margin: 1%;
+}
+.item > p {
+  font-size: x-large;
+  margin: 1%;
+  font-family:monospace;
+}
+.item:hover{
+  display: flex;
+  background-color: rgb(226, 218, 209);
+}
+/*-------products.html layout items styling-------*/
+
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 32%;
+  padding: 1%;
+  margin-bottom: 2%;
+  background-color: rgb(166, 150, 141);
+  border-radius: 10%;
+  height: fit-content;
+  width: fit-content; 
+  margin: 20px;
+}
+.box > img{
+  max-width: 290px;
+  max-height:290px ;
+  border-radius: 7%;
+  margin: 1%;
+}
+.box > p {
+  font-size: x-large;
+  margin: 1%;
+  font-family:monospace;
+}
+.box:hover{
+  display: flex;
+  background-color: rgb(226, 218, 209);
+}
+/*-------index.html page layout styling-------*/
+
+.sub-container1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.team{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 32%;
+  padding: 1%;
+  margin-bottom: 2%;
+  background-color: rgb(146, 111, 92);
+  border-radius: 10%;
+  height: fit-content;
+  width: fit-content; 
+  margin: 20px;
+}
+.team > img {
+  border-radius: 7%;
+  margin: 1%;
+}
+/*-------documentation.html layout styling*/
+
+h7{
+  display: flex;
+  font-size: x-large;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-items: center;
+}
+/*-------documentation.html text styling-------*/
+
+.h{
+  width: 100%;
+  height: 7px;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 450px;
+  margin-bottom: 0px;
+  background-color: rgb(5, 5, 5);
+}
+/*-------contacts.html line decoration*/
+
+h8{
+  justify-content:center;
+  font-size:xx-large; 
+  margin-top: 470px;
+  display: flex;
+}
+
+h9{
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  margin-top: 20px
+}
+
+h10{
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+/*-------contacts.html text decoration-------*/
+
+ .slideshow {
+  height: 500px;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  border-radius: 10%;
+ }
+
+ .slideshow img {
+  width: 100%;
+  height: 100%;
+ }
+
+ /*-------slideshow ANIMATION PART-------*/
+
+ h2{
+  display: flex;
+  justify-content: center;
+ }
