@@ -7,7 +7,6 @@ var imgArray = [
     './slideshowpic6.jpg',
     './slideshowpic7.jpg',
     './slideshowpic8.jpg',
-
 ];
 var curIndex = 0;
 var imgDuration = 1000;

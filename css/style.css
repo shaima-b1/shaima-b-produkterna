@@ -7,7 +7,11 @@ body,html{
   flex-direction: row;
   align-items: flex-end;
   justify-content:space-between;
-  list-style: none;
+  list-style:none;
+}
+
+.nav_links:hover{
+  background-color: rgb(150, 148, 148);
 }
 /*-------navbar-------*/
 
@@ -25,10 +29,24 @@ h1{
   margin-top: 10px;
   font-family: 'Alfa slab one', cursive;
   color:burlywood;
+  -webkit-text-decoration-line: underline; 
+  text-decoration-line: underline;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+  font-size: x-large;
+  -webkit-text-decoration-line: underline; 
+  text-decoration-line: underline;
+  font-weight: 500;
 }
 
 span{
   color: black; 
+  -webkit-text-decoration-line: underline; 
+  text-decoration-line: underline;
 }
 /*-------logo styling-------*/
 
@@ -70,6 +88,9 @@ h3{
   padding-top: 95px;
   font-size: xx-large;
   font-family:monospace;
+  -webkit-text-decoration-line: underline; 
+  text-decoration-line: underline;
+  font-weight: 500;
 }
 h4{
   display: flex;
@@ -79,6 +100,7 @@ h4{
   font-size: x-large;
   font-family:monospace;
   margin-right: -40%; 
+  font-weight: 500;
 }
 /*-------about.html text decoration-------*/
 
@@ -109,7 +131,7 @@ h4{
 .item > img {
   max-width: 290px;
   max-height:290px ;
-  border-radius: 7%;
+  border-radius: 3%;
   margin: 1%;
 }
 .item > p {
@@ -128,10 +150,9 @@ h4{
   flex-direction: column;
   align-items: center;
   width: 32%;
-  padding: 1%;
-  margin-bottom: 2%;
-  background-color: rgb(166, 150, 141);
-  border-radius: 10%;
+  margin-bottom: 0%;
+  background-color: white;
+  border-radius: 5%;
   height: fit-content;
   width: fit-content; 
   margin: 20px;
@@ -140,16 +161,12 @@ h4{
   max-width: 290px;
   max-height:290px ;
   border-radius: 7%;
-  margin: 1%;
+  margin: 0%;
 }
 .box > p {
   font-size: x-large;
   margin: 1%;
   font-family:monospace;
-}
-.box:hover{
-  display: flex;
-  background-color: rgb(226, 218, 209);
 }
 /*-------index.html page layout styling-------*/
 
@@ -165,10 +182,10 @@ h4{
   flex-direction: column;
   align-items: center;
   width: 32%;
-  padding: 1%;
-  margin-bottom: 2%;
-  background-color: rgb(146, 111, 92);
-  border-radius: 10%;
+  padding: 0%;
+  margin-bottom: 0%;
+  background-color: rgb(252, 251, 250);
+  border-radius: 1%;
   height: fit-content;
   width: fit-content; 
   margin: 20px;
@@ -182,8 +199,8 @@ h4{
 h7{
   display: flex;
   font-size: x-large;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  justify-items: center;
+  font-family: monospace;
+  margin-left: 1%;
 }
 /*-------documentation.html text styling-------*/
 
@@ -204,6 +221,8 @@ h8{
   font-size:xx-large; 
   margin-top: 470px;
   display: flex;
+  -webkit-text-decoration-line: underline; 
+  text-decoration-line: underline;
 }
 
 h9{
@@ -221,21 +240,70 @@ h10{
 /*-------contacts.html text decoration-------*/
 
  .slideshow {
-  height: 500px;
-  width: 45%;
-  display: flex;
-  justify-content: center;
-  border-radius: 10%;
- }
+  height: 600px;
+  width: 678px;
+}
 
  .slideshow img {
   width: 100%;
   height: 100%;
+  border-radius: 6%;
  }
-
  /*-------slideshow ANIMATION PART-------*/
 
- h2{
+ .jewellerypic{
+  display: flex;
+  float: right;
+  border-radius: 5% ;
+  height: 285px;
+  width: 750px;
+ }
+
+ .jewellerypic1{
+  display: flex;
+  float: right;
+  border-radius: 5% ;
+  height: 285px;
+  width: 750px;
+  margin-top: 30px;
+ }
+ /*-------pictures beside slideshow-------*/
+
+ div.text1{
   display: flex;
   justify-content: center;
+  font-size: xx-large;
+  font-family: monospace;
+  margin-top: 2%;
  }
+
+ div.text1{
+  -webkit-text-decoration-line: underline; 
+  text-decoration-line: underline; 
+}
+/*-------text underline-------*/
+
+.pearl1{
+  display: flex;
+  height: 750px;
+  border-radius: 7%;
+  margin-top: 40px;
+  width: 715px;
+}
+
+.pearl2{
+  display: flex;
+  height: 750px;
+  border-radius:7% ;
+  margin-top: 40px;
+  width: 715px;
+}
+/*-------pictures index.html styling-------*/
+
+.shoppingcart{
+  display: flex;
+  float: right;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+/*-------shopping cart picture-------*/
