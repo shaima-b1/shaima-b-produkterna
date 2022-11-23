@@ -5,14 +5,14 @@ body,html{
 .nav_links {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
   justify-content:space-between;
   list-style:none;
 }
 
-.nav_links:hover{
-  background-color: rgb(150, 148, 148);
+.nav_links li a :hover{
+  background-color: rgb(85, 88, 88);
 }
+
 /*-------navbar-------*/
 
 header{
@@ -29,7 +29,6 @@ h1{
   margin-top: 10px;
   font-family: 'Alfa slab one', cursive;
   color:burlywood;
-  -webkit-text-decoration-line: underline; 
   text-decoration-line: underline;
 }
 
@@ -38,14 +37,12 @@ h2{
   justify-content: center;
   font-family: monospace;
   font-size: x-large;
-  -webkit-text-decoration-line: underline; 
   text-decoration-line: underline;
   font-weight: 500;
 }
 
 span{
   color: black; 
-  -webkit-text-decoration-line: underline; 
   text-decoration-line: underline;
 }
 /*-------logo styling-------*/
@@ -74,35 +71,6 @@ li, a {
 }
 /*-------navbar styling lists-------*/
 
-.jewelryimg{
-  border-radius:30px;
-  top: 100px;
-  left: -30px;
-}
-/*-------image styling-------*/
-
-h3{
-  display: flex;
-  float:right;
-  padding: 350px;
-  padding-top: 95px;
-  font-size: xx-large;
-  font-family:monospace;
-  -webkit-text-decoration-line: underline; 
-  text-decoration-line: underline;
-  font-weight: 500;
-}
-h4{
-  display: flex;
-  float: right;
-  padding: 40%;
-  margin-top: -62%;
-  font-size: x-large;
-  font-family:monospace;
-  margin-right: -40%; 
-  font-weight: 500;
-}
-/*-------about.html text decoration-------*/
 
 .container {
   display: flex;
@@ -122,17 +90,18 @@ h4{
   width: 32%;
   padding: 1%;
   margin-bottom: 2%;
-  background-color: rgb(146, 111, 92);
+  background-color:rgb(255, 255, 255);
   border-radius: 10%;
   height: fit-content;
   width: fit-content; 
   margin: 20px;
 }
 .item > img {
-  max-width: 290px;
-  max-height:290px ;
+  max-width: 360px;
+  max-height:360px ;
   border-radius: 3%;
   margin: 1%;
+  
 }
 .item > p {
   font-size: x-large;
@@ -141,7 +110,7 @@ h4{
 }
 .item:hover{
   display: flex;
-  background-color: rgb(226, 218, 209);
+  background-color: rgb(255, 255, 255);
 }
 /*-------products.html layout items styling-------*/
 
@@ -167,6 +136,7 @@ h4{
   font-size: x-large;
   margin: 1%;
   font-family:monospace;
+  text-decoration-line: underline; 
 }
 /*-------index.html page layout styling-------*/
 
@@ -219,9 +189,8 @@ h7{
 h8{
   justify-content:center;
   font-size:xx-large; 
-  margin-top: 470px;
-  display: flex;
-  -webkit-text-decoration-line: underline; 
+  margin-top: 80px;
+  display: flex; 
   text-decoration-line: underline;
 }
 
@@ -241,7 +210,7 @@ h10{
 
  .slideshow {
   height: 600px;
-  width: 678px;
+  width: 650px;
 }
 
  .slideshow img {
@@ -256,7 +225,7 @@ h10{
   float: right;
   border-radius: 5% ;
   height: 285px;
-  width: 750px;
+  width: 725px;
  }
 
  .jewellerypic1{
@@ -264,7 +233,7 @@ h10{
   float: right;
   border-radius: 5% ;
   height: 285px;
-  width: 750px;
+  width: 725px;
   margin-top: 30px;
  }
  /*-------pictures beside slideshow-------*/
@@ -278,7 +247,6 @@ h10{
  }
 
  div.text1{
-  -webkit-text-decoration-line: underline; 
   text-decoration-line: underline; 
 }
 /*-------text underline-------*/
@@ -288,7 +256,7 @@ h10{
   height: 750px;
   border-radius: 7%;
   margin-top: 40px;
-  width: 715px;
+  width: 690px;
 }
 
 .pearl2{
@@ -296,7 +264,7 @@ h10{
   height: 750px;
   border-radius:7% ;
   margin-top: 40px;
-  width: 715px;
+  width: 690px;
 }
 /*-------pictures index.html styling-------*/
 
@@ -307,3 +275,46 @@ h10{
   margin-right: 15px;
 }
 /*-------shopping cart picture-------*/
+
+.company1{
+  display: flex;
+  border-radius: 25%;
+}
+/*-------picture sizing about.html------*/
+
+h3{
+  display: flex;
+  padding: 350px;
+  justify-content: center;
+  padding-top: 95px;
+  font-size: xx-large;
+  font-family:monospace;
+  text-decoration-line: underline;
+  font-weight: 500;
+ }
+h4{
+  display: flex;
+  font-family: monospace;
+  font-size: larger;
+  font-weight: 300;
+  text-align:center;
+  margin: 340px;
+}
+ /*-------about.html text decoration-------*/
+ 
+iframe{
+  display: flex;
+  width: 600px;
+  height: 400px;
+  align-content: center;
+ 
+}
+/*-------contacts.html iframe styling-------*/
+
+footer {
+  text-align: center;
+  padding: 7px;
+  background-color: rgb(116, 69, 54);
+  color: white;
+}
+/*-------footer decoraion-------*/

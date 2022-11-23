@@ -1,12 +1,12 @@
 var imgArray = [
-    './slideshowpic1.jpg',
-    './slideshowpic2.jpg',
-    './slideshowpic3.jpg',
-    './slideshowpic4.jpg',
-    './slideshowpic5.jpg',
-    './slideshowpic6.jpg',
-    './slideshowpic7.jpg',
-    './slideshowpic8.jpg',
+    './IMG/slideshowpic1.jpg',
+    './IMG/slideshowpic2.jpg',
+    './IMG/slideshowpic3.jpg',
+    './IMG/slideshowpic4.jpg',
+    './IMG/slideshowpic5.jpg',
+    './IMG/slideshowpic6.jpg',
+    './IMG/slideshowpic7.jpg',
+    './IMG/slideshowpic8.jpg',
 ];
 var curIndex = 0;
 var imgDuration = 1000;
@@ -18,3 +18,4 @@ function slideShow() {
     setTimeout("slideShow()", imgDuration);
 }
 slideShow();
+
